@@ -10,8 +10,10 @@ int main()
             for(k=0;k<p;k++)
                 c[i][k]+=a[i][j]*b[j][k];
 
-    for(o=0;o<m;o++)
+    for(o=0;o<m;o++){
         for(q=0;q<p;q++)
-            printf("%d\n",c[o][q]);
+            printf("%d\t",c[o][q]);
+        putchar('\n');
+    }
     return 0;
 }

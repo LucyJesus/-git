@@ -1,10 +1,10 @@
 #include <stdio.h>
-#define SY 2024
-#define SM 5
-#define SD 3
+#define SY 2001
+#define SM 1
+#define SD 1
 #define TY 2024
-#define TM 5
-#define TD 4
+#define TM 6
+#define TD 13
 #define X 12
 
 

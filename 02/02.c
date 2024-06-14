@@ -25,7 +25,7 @@ int main()
         if(C(q))
             a[++i]=q;
         if(a[A-1]>0)
-        break;
+            break;
     }
     for(k=0;k<A;k++)
         printf("%d\t%d\n",k+1,a[k]);
